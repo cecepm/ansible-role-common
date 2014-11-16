@@ -1,4 +1,4 @@
-# Ansible Role Common
+# Ansible Role Ubuntu Common
 
 Bootstrap Ubuntu server. This is 'meta' roles. All task included from other roles.
 
@@ -43,7 +43,7 @@ Using default vars
 
     - hosts: server
       roles:
-      - cecepm.common
+      - cecepm.ubuntu_common
 
 ## License
 
