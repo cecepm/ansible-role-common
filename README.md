@@ -43,7 +43,7 @@ Using default vars
 
     - hosts: server
       roles:
-      - ansible-role-common
+      - cecepm.common
 
 ## License
 
