@@ -1,0 +1,20 @@
+---
+dependencies:
+  - { role: cecepm.apt }
+  - { role: cecepm.locale }
+  - { role: cecepm.ntp }
+  - { role: cecepm.utils }
+
+galaxy_info:
+  author: cecepm
+  description: Bootstrap Ubuntu base server.
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.6
+  platforms:
+  - name: Ubuntu
+    versions:
+    - lucid
+    - precise
+    - trusty
+  categories:
+  - system
