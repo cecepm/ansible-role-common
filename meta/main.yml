@@ -1,6 +1,6 @@
 ---
 dependencies:
-  - { role: cecepm.apt }
+  - { role: cecepm.apt, apt_upgrade: true }
   - { role: cecepm.locale }
   - { role: cecepm.ntp }
   - { role: cecepm.utils }

@@ -6,6 +6,7 @@ By default this ansible role, will configure
 
 - Set apt ubuntu mirror on `/etc/apt/sources.list` to
   [http://kambing.ui.ac.id/ubuntu](http://kambing.ui.ac.id/ubuntu)
+- Upgrade all packages
 - Set locale settings, LANG to `en_US.UTF-8` and LANGUAGE to `en_US:`
 - Set timezone to `Asia/Jakarta`
 - Install some utility packages
